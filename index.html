@@ -480,29 +480,94 @@
           </ul>
         </div>
 
-        <div class="subscribe-container">
+        <div class="subscribe">
           <p class="subscribe">Subscribe</p>
-          <form action="" name="cubscribe-form">
-            <div class="form-text">
-                <label class="footer-label" name="">
-                  <input
-                    type="email"
-                    class="placeholder-text"
-                    name="subscribe-email"
-                    placeholder="E-mail"
-                  />
-                </label>
-            </div>
-          </form>
-              <div class="subscribe-button-container">
-                <button type="submit" class="subscribe-button">Subscribe
-                  <svg class="subscribe-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-icon-send">
-                    </use>
-                  </svg>
-                </button>
-              </div>
-         </div>
+          <div class="subscribe-container">
+            <form action="" name="subscribe-form">
+              <label class="footer-label" name="">
+                <input
+                  type="email"
+                  class="placeholder-text"
+                  name="subscribe-email"
+                  placeholder="E-mail"
+                />
+              </label>
+            </form>
+            <button type="submit" class="subscribe-button">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="modal-close">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+            <div class="modal-field">
+              <label class="field-name" for="username">Name</label>
+              <div class="modal-field-wrap">
+                <input class="field-input" name="username" type="text" placeholder="" id="username">
+                </input>
+                <svg class="modal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="modal-field">
+              <label class="field-name" for="phone">Phone</label>
+              <div class="modal-field-wrap">
+                <input class="field-input" name="phone" type="tel" placeholder="" id="phone">
+                </input>
+                <svg class="modal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="modal-field">
+              <label class="field-name" for="email">Email</label>
+              <div class="modal-field-wrap">
+                <input class="field-input" name="email" type="email" placeholder="" id="email">
+                </input>
+                <svg class="modal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="modal-field-comment">
+              <label class="field-name" for="comment">Comment</label>
+              <div class="modal-field-wrap">
+                <textarea class="field-input-text-area" name="comment" placeholder="Text input" id="comment">
+                </textarea>
+                <svg>
+                  <use></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="modal-field-checkbox">
+            <label class="field-name" for="privacy-policy"></label>
+            <div>
+              <input class="field-input" name="privacy-policy" type="text" placeholder="" id="">
+              </input>
+              <svg>
+                <use></use>
+              </svg>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
