@@ -530,9 +530,6 @@ h6 {
   margin-bottom: 16px;
 }
 
-.subscribe-container {
-}
-
 .subscribe-form {
   display: flex;
   gap: 24px;
@@ -563,7 +560,7 @@ h6 {
   letter-spacing: 0.02em;
   color: #fff;
   position: relative;
-  margin-bottom: 16px;
+
 }
 
 .subscribe-button {
@@ -737,6 +734,8 @@ h6 {
   background-color: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 8px 16px;
+  outline: transparent;
 }
 
 .field-input-text-area:focus {
@@ -783,6 +782,7 @@ h6 {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 24px;
 }
 
 .pcivacy-policy-span {
@@ -803,8 +803,10 @@ h6 {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-click:checked {
-  background-color: #f4f4fd;
+.checkbox-click:checked .pcivacy-policy-span{
+  background-color: #404bbf;
+  border: none
+  fill: #F4F4FD;
 }
 
 .checkbox-text {
