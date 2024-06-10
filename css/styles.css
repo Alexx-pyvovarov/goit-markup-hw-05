@@ -720,6 +720,11 @@ a {
   fill: #4d5ae5;
 }
 
+.field-input:focus + .modal-icon {
+  border-color: #4d5ae5;
+  fill: #4d5ae5;
+}
+
 .field-input-text-area {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -762,8 +767,6 @@ a {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  padding-left: 16px;
-  padding-top: 12px;
 }
 
 .modal-field-checkbox {
